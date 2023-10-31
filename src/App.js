@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
+import Homepage from "./Components/Homepage";
+import Header from "./Components/Header/Header";
+import Nabar from "./Components/Navbar/Nabar";
+import Apicall from "./Components/AxiosDemo/Apicall";
+import Postapi from "./Components/AxiosDemo/Postapi";
+// import About from "./Components/About/About"
+// import Experience from "./Components/Experience/Experience"
+// import Services from './Components/Services/Services'
+// import Portfolio from './Components/Portfolio/Portfolio'
+// import Testimonials from "./Components/Testimonials/Testimonials";
+// import Contact from './Components/Contact/Contact'
+// import Footer from './Components/Footer/Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<Homepage/> } />
+    <Route path='/header' element={<Header/> } />
+      <Route path='/nabar' element={<Nabar/> } />
+      {/* <Route path='/about' element={<About/> } />
+      <Route path='/experience' element={<Experience/> } />
+      <Route path='/services' element={<Services/> } />
+      <Route path='/portfolio' element={<Portfolio/> } />
+      <Route path='/testimonials' element={<Testimonials/> } />
+      <Route path='/contact' element={<Contact/> } />
+      <Route path='/footer' element={<Footer/> } /> */}
+      <Route path='/apicall' element={<Apicall/> } />
+      <Route path='/postapi' element={<Postapi/> } />
+
+
+    </Routes>
+    </BrowserRouter>
+  
+   </>
   );
 }
 
