@@ -23,9 +23,9 @@ function Footer() {
     </ul>
 
     <div className='footer_socials'>
-      <a href='https://facebook.com'><AiFillFacebook/></a>
-      <a href='https://instagram.com'><AiFillInstagram/></a>
-      <a href='https://github.com'><AiFillGithub/></a>
+      <a href='https://facebook.com' target='_blank'><AiFillFacebook/></a>
+      <a href='https://instagram.com/lalit_bhadu?igshid=OGQ5ZDc2ODk2ZA==' target='_blank'><AiFillInstagram/></a>
+      <a href='https://github.com/LalitBhadu' target='_blank'><AiFillGithub/></a>
     </div>
 
     <div className='footer_copywrite'>

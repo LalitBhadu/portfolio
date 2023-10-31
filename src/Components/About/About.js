@@ -26,12 +26,12 @@ function About() {
         <article className='about_card'>
             <BsAwardFill className='about_icon'/>
            <h5>Experience</h5>
-           <small>6+ Months Work Experience</small>
+           <small>1+ Months Work Experience</small>
         </article>
         <article className='about_card'>
             <FaHospitalUser className='about_icon'/>
            <h5>Clients</h5>
-           <small>5+ India </small>
+           <small>10+ India </small>
         </article>
         <article className='about_card'>
             <AiFillFolderOpen className='about_icon'/>
@@ -41,8 +41,7 @@ function About() {
         
          </div>
 
-         <p>hello world hello world hello worldhello worldhello world hello world hello world hello world hello world hello worl 
-         hello world hello world hello worldhello worldhello world hello world hello world hello world hello world hello world</p>
+         <p>To work in a challenging environment which would utilize my skills to the maximum and I can contribute to the vision of the organization.</p>
          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

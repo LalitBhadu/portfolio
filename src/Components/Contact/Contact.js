@@ -36,7 +36,7 @@ function Contact() {
               <BsInstagram className='contact_option_icon' />
               <h4>Instagram</h4>
               <h5>Lalit_Bhadu</h5>
-              <a href='https://instagram.com' target='_blank'>Send a Message</a>
+              <a href='https://instagram.com/lalit_bhadu?igshid=OGQ5ZDc2ODk2ZA==' target='_blank'>Send a Message</a>
             </article>
             <article className='contact_option'>
               <IoLogoWhatsapp className='contact_option_icon' />
