@@ -5,6 +5,9 @@ import Header from "./Components/Header/Header";
 import Nabar from "./Components/Navbar/Nabar";
 import Apicall from "./Components/AxiosDemo/Apicall";
 import Postapi from "./Components/AxiosDemo/Postapi";
+import Form from "./Components/Form/Form";
+import Todo from "./Components/Todo/Todo";
+
 // import About from "./Components/About/About"
 // import Experience from "./Components/Experience/Experience"
 // import Services from './Components/Services/Services'
@@ -31,6 +34,10 @@ function App() {
       <Route path='/footer' element={<Footer/> } /> */}
       <Route path='/apicall' element={<Apicall/> } />
       <Route path='/postapi' element={<Postapi/> } />
+      <Route path='/form' element={<Form/> } />
+      <Route path='/todo' element={<Todo/> } />
+
+
 
 
     </Routes>
